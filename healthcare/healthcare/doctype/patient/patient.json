@@ -24,6 +24,7 @@
   "column_break_14",
   "status",
   "uid",
+  "partner",
   "inpatient_record",
   "inpatient_status",
   "report_preference",
@@ -32,6 +33,7 @@
   "email",
   "invite_user",
   "user_id",
+  "nid__passport",
   "customer_details_section",
   "customer",
   "customer_group",
@@ -483,13 +485,23 @@
    "fieldname": "medical_history_tab",
    "fieldtype": "Tab Break",
    "label": "Medical History"
+  },
+  {
+   "fieldname": "partner",
+   "fieldtype": "Data",
+   "label": "Partner"
+  },
+  {
+   "fieldname": "nid__passport",
+   "fieldtype": "Barcode",
+   "label": "NID / Passport"
   }
  ],
  "icon": "fa fa-user",
  "image_field": "image",
  "links": [],
  "max_attachments": 50,
- "modified": "2023-01-13 17:48:59.069268",
+ "modified": "2024-05-17 15:57:15.916158",
  "modified_by": "Administrator",
  "module": "Healthcare",
  "name": "Patient",

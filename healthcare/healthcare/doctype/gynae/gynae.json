@@ -1,0 +1,633 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-13 16:45:59.203658",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "patient_tab",
+  "patient_container",
+  "patient",
+  "patient_details",
+  "details_tab",
+  "section_break_zsaj",
+  "pc",
+  "gynae_history_section",
+  "cycle_regularity",
+  "column_break_fmyx",
+  "cycle_length",
+  "column_break_ccxr",
+  "cycle_type",
+  "section_break_nqku",
+  "pain",
+  "column_break_klnw",
+  "pain_relationship_to_cycle",
+  "section_break_pqou",
+  "lmp",
+  "contraception",
+  "section_break_qdsg",
+  "cervical_smear",
+  "column_break_bfbt",
+  "last_cervical_smear",
+  "section_break_vqnr",
+  "imb",
+  "column_break_buah",
+  "pcb",
+  "column_break_iycq",
+  "intercourse_freq",
+  "column_break_raue",
+  "painful_intercourse",
+  "section_break_ccqe",
+  "vaginal_discharge",
+  "column_break_juln",
+  "itching",
+  "column_break_xbsb",
+  "offensive",
+  "parity_section",
+  "parity_p",
+  "parity",
+  "column_break_swjj",
+  "parity_plus",
+  "section_break_ogbm",
+  "gestations",
+  "urinary_section",
+  "urinary_frequency",
+  "urinary_incontinence",
+  "urinary_urgency",
+  "dysuria",
+  "column_break_jqfe",
+  "bowels",
+  "urinary_constipated",
+  "psychiatric_hx",
+  "section_break_wrcn",
+  "previous_medical__surgical_hx",
+  "drug_history__allergies",
+  "social_hx_section",
+  "smoke",
+  "column_break_hpyi",
+  "alcohol",
+  "column_break_gxpf",
+  "occupation",
+  "family_hx_section",
+  "family_hx_m",
+  "column_break_qfwd",
+  "family_hx_f",
+  "examination_section",
+  "exam_general_abdo",
+  "abdo",
+  "abdo_signature",
+  "column_break_rfwi",
+  "exam_chest_lung",
+  "breasts",
+  "breast_signature",
+  "section_break_fyct",
+  "pelvic_exam_column",
+  "v_v",
+  "uterus",
+  "adnexae",
+  "speculum_column",
+  "cx",
+  "smear",
+  "vaginal_wall",
+  "section_break_ymoy",
+  "uss",
+  "working_diagnosis",
+  "other_investigations",
+  "treatment",
+  "partner_column",
+  "partner_name",
+  "partner_age",
+  "partner_occupation",
+  "partner_smokes",
+  "partner_alcohol",
+  "previous_surgery",
+  "kids_previously",
+  "investigations_tab",
+  "last_done_section",
+  "table_xetx",
+  "notes_tab",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "pc",
+   "fieldtype": "Small Text",
+   "label": "PC"
+  },
+  {
+   "fieldname": "gynae_history_section",
+   "fieldtype": "Section Break",
+   "label": "Gynae History"
+  },
+  {
+   "fieldname": "cycle_regularity",
+   "fieldtype": "Select",
+   "label": "Cycle Regularity",
+   "options": "Regular\nIrregular"
+  },
+  {
+   "fieldname": "column_break_fmyx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cycle_length",
+   "fieldtype": "Data",
+   "label": "Cycle Length"
+  },
+  {
+   "fieldname": "column_break_ccxr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cycle_type",
+   "fieldtype": "Select",
+   "label": "Cycle Type",
+   "options": "Heavy\nLight\nModerate"
+  },
+  {
+   "fieldname": "section_break_nqku",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pain",
+   "fieldtype": "Check",
+   "label": "Pain"
+  },
+  {
+   "fieldname": "column_break_klnw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pain_relationship_to_cycle",
+   "fieldtype": "Data",
+   "label": "Relationship to Cycle"
+  },
+  {
+   "fieldname": "section_break_pqou",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "lmp",
+   "fieldtype": "Data",
+   "label": "LMP"
+  },
+  {
+   "fieldname": "contraception",
+   "fieldtype": "Data",
+   "label": "Contraception"
+  },
+  {
+   "fieldname": "section_break_qdsg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "cervical_smear",
+   "fieldtype": "Check",
+   "label": "Cervical Smear"
+  },
+  {
+   "fieldname": "column_break_bfbt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_cervical_smear",
+   "fieldtype": "Data",
+   "label": "Last Cervical Smear"
+  },
+  {
+   "fieldname": "section_break_vqnr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "imb",
+   "fieldtype": "Check",
+   "label": "IMB"
+  },
+  {
+   "fieldname": "column_break_buah",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "pcb",
+   "fieldtype": "Check",
+   "label": "PCB"
+  },
+  {
+   "fieldname": "column_break_iycq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "intercourse_freq",
+   "fieldtype": "Int",
+   "label": "Intercourse Freq"
+  },
+  {
+   "fieldname": "column_break_raue",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "painful_intercourse",
+   "fieldtype": "Check",
+   "label": "Painful"
+  },
+  {
+   "fieldname": "section_break_ccqe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "vaginal_discharge",
+   "fieldtype": "Check",
+   "label": "Vaginal Discharge"
+  },
+  {
+   "fieldname": "column_break_juln",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "itching",
+   "fieldtype": "Check",
+   "label": "Itching"
+  },
+  {
+   "fieldname": "column_break_xbsb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "offensive",
+   "fieldtype": "Check",
+   "label": "Offensive"
+  },
+  {
+   "fieldname": "parity_section",
+   "fieldtype": "Section Break",
+   "label": "Parity"
+  },
+  {
+   "fieldname": "parity_p",
+   "fieldtype": "Data",
+   "label": "P"
+  },
+  {
+   "fieldname": "column_break_swjj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "parity_plus",
+   "fieldtype": "Data",
+   "label": "+"
+  },
+  {
+   "fieldname": "parity",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_ogbm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gestations",
+   "fieldtype": "Table",
+   "label": "Gestations",
+   "options": "Gestation"
+  },
+  {
+   "fieldname": "urinary_section",
+   "fieldtype": "Section Break",
+   "label": "Urinary"
+  },
+  {
+   "fieldname": "urinary_frequency",
+   "fieldtype": "Int",
+   "label": "Frequency"
+  },
+  {
+   "fieldname": "urinary_incontinence",
+   "fieldtype": "Data",
+   "label": "Incontinence"
+  },
+  {
+   "fieldname": "urinary_urgency",
+   "fieldtype": "Data",
+   "label": "Urgency"
+  },
+  {
+   "fieldname": "dysuria",
+   "fieldtype": "Data",
+   "label": "Dysuria"
+  },
+  {
+   "fieldname": "column_break_jqfe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bowels",
+   "fieldtype": "Small Text",
+   "label": "Bowels"
+  },
+  {
+   "default": "0",
+   "fieldname": "urinary_constipated",
+   "fieldtype": "Check",
+   "label": "Constipated"
+  },
+  {
+   "fieldname": "psychiatric_hx",
+   "fieldtype": "Small Text",
+   "label": "Psychiatric hx"
+  },
+  {
+   "fieldname": "section_break_wrcn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "previous_medical__surgical_hx",
+   "fieldtype": "Small Text",
+   "label": "Previous Medical / Surgical Hx"
+  },
+  {
+   "fieldname": "drug_history__allergies",
+   "fieldtype": "Small Text",
+   "label": "Drug History / Allergies"
+  },
+  {
+   "fieldname": "social_hx_section",
+   "fieldtype": "Section Break",
+   "label": "Social Hx"
+  },
+  {
+   "fieldname": "smoke",
+   "fieldtype": "Data",
+   "label": "Smoke"
+  },
+  {
+   "fieldname": "column_break_hpyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "alcohol",
+   "fieldtype": "Data",
+   "label": "Alcohol"
+  },
+  {
+   "fieldname": "column_break_gxpf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "label": "Occupation"
+  },
+  {
+   "fieldname": "family_hx_section",
+   "fieldtype": "Section Break",
+   "label": "Family Hx"
+  },
+  {
+   "fieldname": "family_hx_m",
+   "fieldtype": "Small Text",
+   "label": "M@"
+  },
+  {
+   "fieldname": "column_break_qfwd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "family_hx_f",
+   "fieldtype": "Small Text",
+   "label": "F@"
+  },
+  {
+   "fieldname": "examination_section",
+   "fieldtype": "Section Break",
+   "label": "Examination"
+  },
+  {
+   "fieldname": "exam_general_abdo",
+   "fieldtype": "Data",
+   "label": "General / Abdo"
+  },
+  {
+   "fieldname": "abdo",
+   "fieldtype": "Data",
+   "label": "Abdo"
+  },
+  {
+   "fieldname": "column_break_rfwi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "exam_chest_lung",
+   "fieldtype": "Data",
+   "label": "Chest / Lungs"
+  },
+  {
+   "fieldname": "breasts",
+   "fieldtype": "Data",
+   "label": "Breasts"
+  },
+  {
+   "fieldname": "abdo_signature",
+   "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "breast_signature",
+   "fieldtype": "Signature"
+  },
+  {
+   "fieldname": "section_break_fyct",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pelvic_exam_column",
+   "fieldtype": "Column Break",
+   "label": "Pelvic Exam"
+  },
+  {
+   "fieldname": "v_v",
+   "fieldtype": "Data",
+   "label": "V + V"
+  },
+  {
+   "fieldname": "uterus",
+   "fieldtype": "Data",
+   "label": "Uterus"
+  },
+  {
+   "fieldname": "adnexae",
+   "fieldtype": "Data",
+   "label": "Adnexae"
+  },
+  {
+   "fieldname": "speculum_column",
+   "fieldtype": "Column Break",
+   "label": "Speculum"
+  },
+  {
+   "fieldname": "cx",
+   "fieldtype": "Data",
+   "label": "Cx"
+  },
+  {
+   "fieldname": "smear",
+   "fieldtype": "Data",
+   "label": "Smear"
+  },
+  {
+   "fieldname": "vaginal_wall",
+   "fieldtype": "Data",
+   "label": "Vaginal Wall"
+  },
+  {
+   "fieldname": "section_break_ymoy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "uss",
+   "fieldtype": "Small Text",
+   "label": "USS"
+  },
+  {
+   "fieldname": "working_diagnosis",
+   "fieldtype": "Small Text",
+   "label": "Working Diagnosis"
+  },
+  {
+   "fieldname": "other_investigations",
+   "fieldtype": "Small Text",
+   "label": "Other Investigations"
+  },
+  {
+   "fieldname": "treatment",
+   "fieldtype": "Small Text",
+   "label": "Treatment"
+  },
+  {
+   "fieldname": "partner_column",
+   "fieldtype": "Column Break",
+   "label": "Partner"
+  },
+  {
+   "fieldname": "partner_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "partner_age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "partner_occupation",
+   "fieldtype": "Data",
+   "label": "Occupation"
+  },
+  {
+   "default": "0",
+   "fieldname": "partner_smokes",
+   "fieldtype": "Check",
+   "label": "Smokes"
+  },
+  {
+   "default": "0",
+   "fieldname": "partner_alcohol",
+   "fieldtype": "Check",
+   "label": "Alcohol"
+  },
+  {
+   "fieldname": "previous_surgery",
+   "fieldtype": "Data",
+   "label": "Previous Surgery"
+  },
+  {
+   "fieldname": "kids_previously",
+   "fieldtype": "Data",
+   "label": "Kids Previously"
+  },
+  {
+   "fieldname": "last_done_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_xetx",
+   "fieldtype": "Table",
+   "label": "Lab Test",
+   "options": "Lab Prescription"
+  },
+  {
+   "fieldname": "notes_tab",
+   "fieldtype": "Tab Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "investigations_tab",
+   "fieldtype": "Tab Break",
+   "label": "Investigations"
+  },
+  {
+   "fieldname": "section_break_zsaj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "patient_container",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "label": "Patient",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "patient_details",
+   "fieldtype": "Data",
+   "is_virtual": 1
+  },
+  {
+   "fieldname": "patient_tab",
+   "fieldtype": "Tab Break",
+   "label": "Patient"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-18 09:07:10.095751",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Gynae",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
