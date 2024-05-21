@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Gestation(Document):
+class GynaeVitals(Document):
 	pass

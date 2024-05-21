@@ -1,0 +1,680 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-21 04:58:18.122318",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "intro_tab",
+  "paediatriaan",
+  "anaesthetist",
+  "note",
+  "place_of_delivery",
+  "details_tab",
+  "patient",
+  "age_at_delivery",
+  "booking_date",
+  "general_tab",
+  "lmp",
+  "cycle",
+  "column_break_edwi",
+  "lmp_note",
+  "edd_by_lmp",
+  "edd_by_scan",
+  "agreed_edd",
+  "contraception_section",
+  "contraception_stopped",
+  "column_break_lscc",
+  "contraception_when",
+  "column_break_zeat",
+  "contraception_type",
+  "section_break_cync",
+  "parity",
+  "section_break_taru",
+  "table_pcxp",
+  "tab_4_tab",
+  "previous_medical__surgical_history",
+  "drug_hx__allergies",
+  "column_break_jvuk",
+  "previous_gynae__obs_hx_of_note",
+  "section_break_ndrq",
+  "folic_acid__ferrous_sulphate",
+  "section_break_lgfl",
+  "fhx_column",
+  "maternal",
+  "paternal",
+  "genetic_concerns",
+  "shx_column",
+  "occupation",
+  "smoke",
+  "alcohol",
+  "pets",
+  "section_break_rbns",
+  "paternal_history_column",
+  "paternal_name",
+  "paternal_age",
+  "paternal_occupation",
+  "mhx_of_note",
+  "others_tab",
+  "column_break_nyxt",
+  "fbc_hb",
+  "fbc_plt",
+  "blood_group",
+  "rubella_status",
+  "toxoplasmosis",
+  "hiv_screening",
+  "msu",
+  "fbs",
+  "booking_column",
+  "weight",
+  "height",
+  "bp",
+  "relevant_issues",
+  "section_break_zmqm",
+  "maternal_care_plan_column",
+  "preferred_place_of_delivery",
+  "preferred_anaesthetist",
+  "preferred_paediatrician",
+  "section_break_iovi",
+  "column_break_oycv",
+  "date_of_1st_scan",
+  "singletonmultiple",
+  "viable",
+  "size_by_crl",
+  "size_by_bpdfl",
+  "placental_site",
+  "liquor_volume",
+  "anatomy_1840__2040_scan_column",
+  "heart",
+  "limbs",
+  "cranium",
+  "spine",
+  "bowels",
+  "kidneys",
+  "sex",
+  "liquor",
+  "placenta",
+  "lungs",
+  "prenatal_diagnosis__test_discussed_section",
+  "triple_test",
+  "harmony_test",
+  "amniocentesis",
+  "column_break_kebv",
+  "triple_test_date",
+  "harmony_test_date",
+  "amniocentesis_date",
+  "delivery_outcome_nvd__lscs__ventouse_section",
+  "delivery_place",
+  "delivery_date",
+  "delivery_time",
+  "indication",
+  "delivery_sex",
+  "delivery_weight"
+ ],
+ "fields": [
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "label": "Patient",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "intro_tab",
+   "fieldtype": "Tab Break",
+   "label": "Intro"
+  },
+  {
+   "fieldname": "paediatriaan",
+   "fieldtype": "Data",
+   "label": "Paediatriaan"
+  },
+  {
+   "fieldname": "anaesthetist",
+   "fieldtype": "Data",
+   "label": "Anaesthetist"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "place_of_delivery",
+   "fieldtype": "Data",
+   "label": "Place Of Delivery"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "age_at_delivery",
+   "fieldtype": "Int",
+   "label": "Age at Delivery"
+  },
+  {
+   "fieldname": "booking_date",
+   "fieldtype": "Date",
+   "label": "Booking Date"
+  },
+  {
+   "fieldname": "general_tab",
+   "fieldtype": "Tab Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "lmp",
+   "fieldtype": "Select",
+   "label": "LMP",
+   "options": "Sure\nUnsure"
+  },
+  {
+   "fieldname": "cycle",
+   "fieldtype": "Select",
+   "label": "Cycle",
+   "options": "Regular\nIrregular"
+  },
+  {
+   "fieldname": "column_break_edwi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lmp_note",
+   "fieldtype": "Data",
+   "label": "LMP Note"
+  },
+  {
+   "fieldname": "edd_by_lmp",
+   "fieldtype": "Data",
+   "label": "EDD by LMP"
+  },
+  {
+   "fieldname": "edd_by_scan",
+   "fieldtype": "Data",
+   "label": "EDD by Scan"
+  },
+  {
+   "fieldname": "agreed_edd",
+   "fieldtype": "Data",
+   "label": "AGREED EDD"
+  },
+  {
+   "fieldname": "contraception_section",
+   "fieldtype": "Section Break",
+   "label": "Contraception"
+  },
+  {
+   "default": "0",
+   "fieldname": "contraception_stopped",
+   "fieldtype": "Check",
+   "label": "Stopped",
+   "options": "Y\nN"
+  },
+  {
+   "fieldname": "column_break_lscc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contraception_when",
+   "fieldtype": "Date",
+   "label": "When"
+  },
+  {
+   "fieldname": "column_break_zeat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contraception_type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "section_break_cync",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parity",
+   "fieldtype": "Small Text",
+   "label": "Parity"
+  },
+  {
+   "fieldname": "section_break_taru",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_pcxp",
+   "fieldtype": "Table",
+   "options": "Gynae Obstetric Child"
+  },
+  {
+   "fieldname": "tab_4_tab",
+   "fieldtype": "Tab Break",
+   "label": "History"
+  },
+  {
+   "fieldname": "previous_medical__surgical_history",
+   "fieldtype": "Small Text",
+   "label": "Previous Medical / Surgical History"
+  },
+  {
+   "fieldname": "drug_hx__allergies",
+   "fieldtype": "Small Text",
+   "label": "Drug Hx / Allergies"
+  },
+  {
+   "fieldname": "column_break_jvuk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "previous_gynae__obs_hx_of_note",
+   "fieldtype": "Small Text",
+   "label": "Previous Gynae / Obs Hx of note"
+  },
+  {
+   "fieldname": "section_break_ndrq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "folic_acid__ferrous_sulphate",
+   "fieldtype": "Select",
+   "label": "Folic Acid / Ferrous Sulphate",
+   "options": "Folic Acid\nFerrous Sulphate"
+  },
+  {
+   "fieldname": "section_break_lgfl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fhx_column",
+   "fieldtype": "Column Break",
+   "label": "FHx"
+  },
+  {
+   "fieldname": "maternal",
+   "fieldtype": "Data",
+   "label": "Maternal"
+  },
+  {
+   "fieldname": "paternal",
+   "fieldtype": "Data",
+   "label": "Paternal"
+  },
+  {
+   "fieldname": "genetic_concerns",
+   "fieldtype": "Small Text",
+   "label": "Genetic Concerns"
+  },
+  {
+   "fieldname": "shx_column",
+   "fieldtype": "Column Break",
+   "label": "SHx"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "label": "Occupation"
+  },
+  {
+   "default": "0",
+   "fieldname": "smoke",
+   "fieldtype": "Check",
+   "label": "Smoke"
+  },
+  {
+   "default": "0",
+   "fieldname": "alcohol",
+   "fieldtype": "Check",
+   "label": "Alcohol"
+  },
+  {
+   "default": "0",
+   "fieldname": "pets",
+   "fieldtype": "Check",
+   "label": "Pets"
+  },
+  {
+   "fieldname": "section_break_rbns",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "paternal_history_column",
+   "fieldtype": "Column Break",
+   "label": "Paternal History"
+  },
+  {
+   "fieldname": "paternal_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "paternal_age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "paternal_occupation",
+   "fieldtype": "Data",
+   "label": "Occupation"
+  },
+  {
+   "fieldname": "mhx_of_note",
+   "fieldtype": "Data",
+   "label": "MHx of note"
+  },
+  {
+   "fieldname": "column_break_nyxt",
+   "fieldtype": "Column Break",
+   "label": "Investigation"
+  },
+  {
+   "fieldname": "fbc_hb",
+   "fieldtype": "Data",
+   "label": "FBC Hb"
+  },
+  {
+   "fieldname": "fbc_plt",
+   "fieldtype": "Data",
+   "label": "FBC Plt"
+  },
+  {
+   "fieldname": "blood_group",
+   "fieldtype": "Data",
+   "label": "Blood Group"
+  },
+  {
+   "fieldname": "rubella_status",
+   "fieldtype": "Select",
+   "label": "Rubella Status",
+   "options": "Immune\nNot Immune"
+  },
+  {
+   "fieldname": "toxoplasmosis",
+   "fieldtype": "Select",
+   "label": "Toxoplasmosis",
+   "options": "Immune\nNot immune"
+  },
+  {
+   "fieldname": "hiv_screening",
+   "fieldtype": "Data",
+   "label": "HIV Screening"
+  },
+  {
+   "fieldname": "msu",
+   "fieldtype": "Data",
+   "label": "MSU"
+  },
+  {
+   "fieldname": "fbs",
+   "fieldtype": "Data",
+   "label": "FBS"
+  },
+  {
+   "fieldname": "others_tab",
+   "fieldtype": "Tab Break",
+   "label": "Others"
+  },
+  {
+   "fieldname": "booking_column",
+   "fieldtype": "Column Break",
+   "label": "Booking"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "label": "Height"
+  },
+  {
+   "fieldname": "bp",
+   "fieldtype": "Float",
+   "label": "Bp"
+  },
+  {
+   "fieldname": "relevant_issues",
+   "fieldtype": "Small Text",
+   "label": "Relevant Issues"
+  },
+  {
+   "fieldname": "section_break_zmqm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "maternal_care_plan_column",
+   "fieldtype": "Column Break",
+   "label": "Maternal Care Plan"
+  },
+  {
+   "fieldname": "preferred_place_of_delivery",
+   "fieldtype": "Data",
+   "label": "Preferred place of delivery"
+  },
+  {
+   "fieldname": "preferred_anaesthetist",
+   "fieldtype": "Data",
+   "label": "Preferred Anaesthetist"
+  },
+  {
+   "fieldname": "preferred_paediatrician",
+   "fieldtype": "Data",
+   "label": "Preferred Paediatrician"
+  },
+  {
+   "fieldname": "column_break_oycv",
+   "fieldtype": "Column Break",
+   "label": "Ultrasound Scan"
+  },
+  {
+   "fieldname": "section_break_iovi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_1st_scan",
+   "fieldtype": "Date",
+   "label": "Date of 1st Scan"
+  },
+  {
+   "fieldname": "singletonmultiple",
+   "fieldtype": "Select",
+   "label": "Singleton/Multiple",
+   "options": "Singleton\nMultiple"
+  },
+  {
+   "default": "0",
+   "fieldname": "viable",
+   "fieldtype": "Check",
+   "label": "Viable"
+  },
+  {
+   "fieldname": "size_by_crl",
+   "fieldtype": "Data",
+   "label": "Size by CRL"
+  },
+  {
+   "fieldname": "size_by_bpdfl",
+   "fieldtype": "Data",
+   "label": "Size by BPD/FL"
+  },
+  {
+   "fieldname": "placental_site",
+   "fieldtype": "Data",
+   "label": "Placental Site"
+  },
+  {
+   "fieldname": "liquor_volume",
+   "fieldtype": "Data",
+   "label": "Liquor Volume"
+  },
+  {
+   "fieldname": "anatomy_1840__2040_scan_column",
+   "fieldtype": "Column Break",
+   "label": "Anatomy 18/40  20/40 Scan"
+  },
+  {
+   "default": "0",
+   "fieldname": "heart",
+   "fieldtype": "Check",
+   "label": "Heart"
+  },
+  {
+   "default": "0",
+   "fieldname": "limbs",
+   "fieldtype": "Check",
+   "label": "Limbs"
+  },
+  {
+   "default": "0",
+   "fieldname": "cranium",
+   "fieldtype": "Check",
+   "label": "Cranium"
+  },
+  {
+   "default": "0",
+   "fieldname": "spine",
+   "fieldtype": "Check",
+   "label": "Spine"
+  },
+  {
+   "default": "0",
+   "fieldname": "bowels",
+   "fieldtype": "Check",
+   "label": "Bowels"
+  },
+  {
+   "default": "0",
+   "fieldname": "kidneys",
+   "fieldtype": "Check",
+   "label": "Kidneys"
+  },
+  {
+   "default": "0",
+   "fieldname": "sex",
+   "fieldtype": "Check",
+   "label": "Sex"
+  },
+  {
+   "default": "0",
+   "fieldname": "liquor",
+   "fieldtype": "Check",
+   "label": "Liquor"
+  },
+  {
+   "default": "0",
+   "fieldname": "placenta",
+   "fieldtype": "Check",
+   "label": "Placenta"
+  },
+  {
+   "default": "0",
+   "fieldname": "lungs",
+   "fieldtype": "Check",
+   "label": "Lungs"
+  },
+  {
+   "fieldname": "prenatal_diagnosis__test_discussed_section",
+   "fieldtype": "Section Break",
+   "label": "Prenatal Diagnosis / Test Discussed"
+  },
+  {
+   "default": "0",
+   "fieldname": "triple_test",
+   "fieldtype": "Check",
+   "label": "Triple Test"
+  },
+  {
+   "default": "0",
+   "fieldname": "harmony_test",
+   "fieldtype": "Check",
+   "label": "Harmony Test"
+  },
+  {
+   "default": "0",
+   "fieldname": "amniocentesis",
+   "fieldtype": "Check",
+   "label": "Amniocentesis"
+  },
+  {
+   "fieldname": "column_break_kebv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "triple_test_date",
+   "fieldtype": "Date",
+   "label": "Triple Test Date"
+  },
+  {
+   "fieldname": "harmony_test_date",
+   "fieldtype": "Date",
+   "label": "Harmony Test Date"
+  },
+  {
+   "fieldname": "amniocentesis_date",
+   "fieldtype": "Date",
+   "label": "Amniocentesis Date"
+  },
+  {
+   "fieldname": "delivery_outcome_nvd__lscs__ventouse_section",
+   "fieldtype": "Section Break",
+   "label": "Delivery Outcome NVD / LSCS / Ventouse"
+  },
+  {
+   "fieldname": "delivery_place",
+   "fieldtype": "Data",
+   "label": "Place"
+  },
+  {
+   "fieldname": "delivery_date",
+   "fieldtype": "Datetime",
+   "label": "Date"
+  },
+  {
+   "fieldname": "delivery_time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "indication",
+   "fieldtype": "Data",
+   "label": "Indication"
+  },
+  {
+   "fieldname": "delivery_sex",
+   "fieldtype": "Select",
+   "label": "Sex",
+   "options": "male\nfemale"
+  },
+  {
+   "fieldname": "delivery_weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-21 05:56:18.570396",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Gynae Obstetric History Sheet",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

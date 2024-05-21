@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestGynae(FrappeTestCase):
+class TestGynaeObstetricHistorySheet(FrappeTestCase):
 	pass

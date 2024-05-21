@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:Gyn-{patient}-{date}",
  "creation": "2024-05-13 16:45:59.203658",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -11,6 +12,7 @@
   "patient_details",
   "details_tab",
   "section_break_zsaj",
+  "date",
   "pc",
   "gynae_history_section",
   "cycle_regularity",
@@ -48,7 +50,7 @@
   "parity",
   "column_break_swjj",
   "parity_plus",
-  "section_break_ogbm",
+  "section_break_nkvz",
   "gestations",
   "urinary_section",
   "urinary_frequency",
@@ -102,6 +104,10 @@
   "partner_alcohol",
   "previous_surgery",
   "kids_previously",
+  "last_done_tab",
+  "mamography",
+  "bone_density",
+  "blood_tests",
   "investigations_tab",
   "last_done_section",
   "table_xetx",
@@ -287,16 +293,6 @@
   {
    "fieldname": "parity",
    "fieldtype": "Data"
-  },
-  {
-   "fieldname": "section_break_ogbm",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "gestations",
-   "fieldtype": "Table",
-   "label": "Gestations",
-   "options": "Gestation"
   },
   {
    "fieldname": "urinary_section",
@@ -588,7 +584,8 @@
    "fieldname": "patient",
    "fieldtype": "Link",
    "label": "Patient",
-   "options": "Patient"
+   "options": "Patient",
+   "unique": 1
   },
   {
    "fieldname": "patient_details",
@@ -604,14 +601,56 @@
    "fieldname": "details_tab",
    "fieldtype": "Tab Break",
    "label": "Details"
+  },
+  {
+   "default": "Now",
+   "fieldname": "date",
+   "fieldtype": "Datetime",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_nkvz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gestations",
+   "fieldtype": "Table",
+   "label": "Gestations",
+   "options": "Gynae Gestation"
+  },
+  {
+   "fieldname": "last_done_tab",
+   "fieldtype": "Tab Break",
+   "label": "Last Done"
+  },
+  {
+   "default": "type = `Mammography`",
+   "fieldname": "mamography",
+   "fieldtype": "Table",
+   "label": "Mamography",
+   "options": "Gynae Date Entry"
+  },
+  {
+   "fieldname": "bone_density",
+   "fieldtype": "Table",
+   "label": "Bone Density",
+   "options": "Gynae Date Entry"
+  },
+  {
+   "fieldname": "blood_tests",
+   "fieldtype": "Table",
+   "label": "Blood Tests",
+   "options": "Gynae Date Entry"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-18 09:07:10.095751",
+ "modified": "2024-05-21 04:51:59.527421",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "Gynae",
+ "name": "Gynae Consultation",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

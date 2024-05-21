@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-05-13 19:04:55.141543",
+ "creation": "2024-05-21 04:13:45.327335",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -34,7 +34,7 @@
   },
   {
    "fieldname": "age",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Age"
   },
@@ -48,10 +48,10 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-05-13 19:06:44.549276",
+ "modified": "2024-05-21 04:32:32.442845",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "Gestation",
+ "name": "Gynae Gestation",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "creation",

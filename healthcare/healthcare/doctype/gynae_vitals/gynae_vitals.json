@@ -1,0 +1,169 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:gvitals-{patient}-{date}",
+ "creation": "2024-05-20 18:39:19.856151",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "patient",
+  "column_break_okdq",
+  "date",
+  "uringe_section",
+  "urine_sugar",
+  "column_break_udxe",
+  "urine_protein",
+  "vitals_section",
+  "bp",
+  "weight_kg",
+  "section_break_cpji",
+  "gestation_by_agreed_date",
+  "assessment_of_foetus_section",
+  "presentation",
+  "column_break_vghu",
+  "fhh",
+  "column_break_omae",
+  "fmf",
+  "section_break_oyhx",
+  "hb",
+  "other_concerns",
+  "return_in_52"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "uringe_section",
+   "fieldtype": "Section Break",
+   "label": "Urine"
+  },
+  {
+   "fieldname": "urine_sugar",
+   "fieldtype": "Data",
+   "label": "Sugar"
+  },
+  {
+   "fieldname": "column_break_udxe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "urine_protein",
+   "fieldtype": "Data",
+   "label": "Protein"
+  },
+  {
+   "fieldname": "vitals_section",
+   "fieldtype": "Section Break",
+   "label": "Vitals"
+  },
+  {
+   "fieldname": "bp",
+   "fieldtype": "Data",
+   "label": "Bp"
+  },
+  {
+   "fieldname": "weight_kg",
+   "fieldtype": "Data",
+   "label": "Weight (Kg)"
+  },
+  {
+   "fieldname": "section_break_cpji",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gestation_by_agreed_date",
+   "fieldtype": "Date",
+   "label": "Gestation by agreed date"
+  },
+  {
+   "fieldname": "assessment_of_foetus_section",
+   "fieldtype": "Section Break",
+   "label": "Assessment Of Foetus"
+  },
+  {
+   "fieldname": "presentation",
+   "fieldtype": "Data",
+   "label": "Presentation"
+  },
+  {
+   "fieldname": "column_break_vghu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fhh",
+   "fieldtype": "Data",
+   "label": "FHH"
+  },
+  {
+   "fieldname": "column_break_omae",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fmf",
+   "fieldtype": "Data",
+   "label": "FMF"
+  },
+  {
+   "fieldname": "section_break_oyhx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "hb",
+   "fieldtype": "Data",
+   "label": "H.B"
+  },
+  {
+   "fieldname": "other_concerns",
+   "fieldtype": "Small Text",
+   "label": "Other Concerns"
+  },
+  {
+   "fieldname": "return_in_52",
+   "fieldtype": "Data",
+   "label": "Return in/ 52"
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Patient",
+   "options": "Patient",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_okdq",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-21 04:00:33.690429",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Gynae Vitals",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
