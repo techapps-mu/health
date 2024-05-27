@@ -70,7 +70,9 @@
   "alcohol_current_use",
   "column_break_32",
   "surrounding_factors",
-  "other_risk_factors"
+  "other_risk_factors",
+  "follow_up_review_tab",
+  "table_dlpz"
  ],
  "fields": [
   {
@@ -495,16 +497,27 @@
    "fieldname": "nid__passport",
    "fieldtype": "Barcode",
    "label": "NID / Passport"
+  },
+  {
+   "fieldname": "follow_up_review_tab",
+   "fieldtype": "Tab Break",
+   "label": "Follow Up Review"
+  },
+  {
+   "fieldname": "table_dlpz",
+   "fieldtype": "Table",
+   "options": "G Vitals"
   }
  ],
  "icon": "fa fa-user",
  "image_field": "image",
  "links": [],
  "max_attachments": 50,
- "modified": "2024-05-17 15:57:15.916158",
+ "modified": "2024-05-27 15:59:29.681997",
  "modified_by": "Administrator",
  "module": "Healthcare",
  "name": "Patient",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

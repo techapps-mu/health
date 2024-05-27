@@ -2,8 +2,37 @@
 // For license information, please see license.txt
 {% include 'healthcare/regional/india/abdm/js/patient.js' %}
 
+
+function hideTab(tabName) {
+	const tab = $(`[data-fieldname="${tabName}"]`).parent();
+	tab[0].classList.add('hide');
+	tab[0].classList.remove('show');
+}
+
+function unHideTab(tabName) {
+	const tab = $(`[data-fieldname="${tabName}"]`).parent();
+	tab.removeClass('hide');
+	tab.addClass("show");
+}
+
 frappe.ui.form.on('Patient', {
 	refresh: function (frm) {
+
+		setTimeout(() => {
+			hideTab('follow_up_review_tab');
+			if (frappe.user.has_role('Zeeneko') && !frappe.user.has_role('Administrator')) {
+	
+				hideTab('dashboard_tab');
+				hideTab('address_and_contact_tab');
+				hideTab('medical_history_tab');
+				unHideTab('follow_up_review_tab');
+	
+			}
+
+		},10);
+
+
+
 		frm.set_query('patient', 'patient_relation', function () {
 			return {
 				filters: [

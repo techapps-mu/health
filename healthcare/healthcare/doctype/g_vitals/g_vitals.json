@@ -1,12 +1,12 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:gvitals-{patient}-{date}",
+ "autoname": "format:gvitals-{patient}-{date}-{#####}",
  "creation": "2024-05-20 18:39:19.856151",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "patient",
   "column_break_okdq",
   "date",
   "uringe_section",
@@ -31,6 +31,7 @@
  ],
  "fields": [
   {
+   "columns": 1,
    "default": "Today",
    "fieldname": "date",
    "fieldtype": "Date",
@@ -44,8 +45,10 @@
    "label": "Urine"
   },
   {
+   "columns": 1,
    "fieldname": "urine_sugar",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Sugar"
   },
   {
@@ -53,8 +56,10 @@
    "fieldtype": "Column Break"
   },
   {
+   "columns": 1,
    "fieldname": "urine_protein",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Protein"
   },
   {
@@ -63,11 +68,14 @@
    "label": "Vitals"
   },
   {
+   "columns": 1,
    "fieldname": "bp",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Bp"
   },
   {
+   "columns": 1,
    "fieldname": "weight_kg",
    "fieldtype": "Data",
    "label": "Weight (Kg)"
@@ -77,6 +85,7 @@
    "fieldtype": "Section Break"
   },
   {
+   "columns": 1,
    "fieldname": "gestation_by_agreed_date",
    "fieldtype": "Date",
    "label": "Gestation by agreed date"
@@ -87,6 +96,7 @@
    "label": "Assessment Of Foetus"
   },
   {
+   "columns": 1,
    "fieldname": "presentation",
    "fieldtype": "Data",
    "label": "Presentation"
@@ -96,6 +106,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "columns": 1,
    "fieldname": "fhh",
    "fieldtype": "Data",
    "label": "FHH"
@@ -105,6 +116,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "columns": 1,
    "fieldname": "fmf",
    "fieldtype": "Data",
    "label": "FMF"
@@ -114,27 +126,22 @@
    "fieldtype": "Section Break"
   },
   {
+   "columns": 1,
    "fieldname": "hb",
    "fieldtype": "Data",
    "label": "H.B"
   },
   {
+   "columns": 1,
    "fieldname": "other_concerns",
    "fieldtype": "Small Text",
    "label": "Other Concerns"
   },
   {
+   "columns": 1,
    "fieldname": "return_in_52",
    "fieldtype": "Data",
    "label": "Return in/ 52"
-  },
-  {
-   "fieldname": "patient",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Patient",
-   "options": "Patient",
-   "reqd": 1
   },
   {
    "fieldname": "column_break_okdq",
@@ -142,27 +149,15 @@
   }
  ],
  "index_web_pages_for_search": 1,
+ "istable": 1,
  "links": [],
- "modified": "2024-05-21 04:00:33.690429",
+ "modified": "2024-05-27 16:42:17.257220",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "Gynae Vitals",
+ "name": "G Vitals",
  "naming_rule": "Expression",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": []

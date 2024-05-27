@@ -289,3 +289,7 @@ standard_queries = {
 treeviews = [
 	"Healthcare Service Unit",
 ]
+
+fixtures = [{
+  'dt': 'Role', 'filters': {'name': ('in', ('Zeeneko'))}
+},{'dt': 'Custom DocPerm', 'filters': {'role': ('in', ('Zeeneko'))}}]

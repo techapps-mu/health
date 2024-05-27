@@ -5,15 +5,15 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "intro_tab",
-  "paediatriaan",
-  "anaesthetist",
-  "note",
-  "place_of_delivery",
   "details_tab",
   "patient",
   "age_at_delivery",
   "booking_date",
+  "section_break_kswo",
+  "paediatriaan",
+  "anaesthetist",
+  "note",
+  "place_of_delivery",
   "general_tab",
   "lmp",
   "cycle",
@@ -29,7 +29,12 @@
   "column_break_zeat",
   "contraception_type",
   "section_break_cync",
+  "parity_p",
+  "column_break_wrho",
+  "parity_plus",
+  "section_break_tmvc",
   "parity",
+  "tab_break_ujdn",
   "section_break_taru",
   "table_pcxp",
   "tab_4_tab",
@@ -70,11 +75,7 @@
   "height",
   "bp",
   "relevant_issues",
-  "section_break_zmqm",
-  "maternal_care_plan_column",
-  "preferred_place_of_delivery",
-  "preferred_anaesthetist",
-  "preferred_paediatrician",
+  "utrasound_tab",
   "section_break_iovi",
   "column_break_oycv",
   "date_of_1st_scan",
@@ -84,6 +85,7 @@
   "size_by_bpdfl",
   "placental_site",
   "liquor_volume",
+  "anatomy_20_tab",
   "anatomy_1840__2040_scan_column",
   "heart",
   "limbs",
@@ -95,6 +97,7 @@
   "liquor",
   "placenta",
   "lungs",
+  "prenatal_diag_tab",
   "prenatal_diagnosis__test_discussed_section",
   "triple_test",
   "harmony_test",
@@ -103,7 +106,15 @@
   "triple_test_date",
   "harmony_test_date",
   "amniocentesis_date",
+  "maternal_care_plan_tab",
+  "section_break_zmqm",
+  "maternal_care_plan_column",
+  "preferred_place_of_delivery",
+  "preferred_anaesthetist",
+  "preferred_paediatrician",
+  "delivery_tab",
   "delivery_outcome_nvd__lscs__ventouse_section",
+  "outcome",
   "delivery_place",
   "delivery_date",
   "delivery_time",
@@ -117,11 +128,6 @@
    "fieldtype": "Link",
    "label": "Patient",
    "options": "Patient"
-  },
-  {
-   "fieldname": "intro_tab",
-   "fieldtype": "Tab Break",
-   "label": "Intro"
   },
   {
    "fieldname": "paediatriaan",
@@ -146,7 +152,7 @@
   {
    "fieldname": "details_tab",
    "fieldtype": "Tab Break",
-   "label": "Details"
+   "label": "Patient Details"
   },
   {
    "fieldname": "age_at_delivery",
@@ -161,7 +167,7 @@
   {
    "fieldname": "general_tab",
    "fieldtype": "Tab Break",
-   "label": "General"
+   "label": "Obstetric Details"
   },
   {
    "fieldname": "lmp",
@@ -186,17 +192,17 @@
   },
   {
    "fieldname": "edd_by_lmp",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "EDD by LMP"
   },
   {
    "fieldname": "edd_by_scan",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "EDD by Scan"
   },
   {
    "fieldname": "agreed_edd",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "AGREED EDD"
   },
   {
@@ -231,11 +237,7 @@
   },
   {
    "fieldname": "section_break_cync",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "parity",
-   "fieldtype": "Small Text",
+   "fieldtype": "Section Break",
    "label": "Parity"
   },
   {
@@ -250,7 +252,7 @@
   {
    "fieldname": "tab_4_tab",
    "fieldtype": "Tab Break",
-   "label": "History"
+   "label": "Other Hx"
   },
   {
    "fieldname": "previous_medical__surgical_history",
@@ -412,7 +414,7 @@
   {
    "fieldname": "others_tab",
    "fieldtype": "Tab Break",
-   "label": "Others"
+   "label": "Booking Tests"
   },
   {
    "fieldname": "booking_column",
@@ -618,8 +620,7 @@
   },
   {
    "fieldname": "delivery_outcome_nvd__lscs__ventouse_section",
-   "fieldtype": "Section Break",
-   "label": "Delivery Outcome NVD / LSCS / Ventouse"
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "delivery_place",
@@ -651,14 +652,76 @@
    "fieldname": "delivery_weight",
    "fieldtype": "Float",
    "label": "Weight"
+  },
+  {
+   "fieldname": "parity_p",
+   "fieldtype": "Data",
+   "label": "P"
+  },
+  {
+   "fieldname": "column_break_wrho",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "parity_plus",
+   "fieldtype": "Data",
+   "label": "+"
+  },
+  {
+   "fieldname": "section_break_tmvc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parity",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "section_break_kswo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tab_break_ujdn",
+   "fieldtype": "Tab Break",
+   "label": "Prev Birth Hx"
+  },
+  {
+   "fieldname": "utrasound_tab",
+   "fieldtype": "Tab Break",
+   "label": "First Echo"
+  },
+  {
+   "fieldname": "anatomy_20_tab",
+   "fieldtype": "Tab Break",
+   "label": "20 Week Anatomy"
+  },
+  {
+   "fieldname": "prenatal_diag_tab",
+   "fieldtype": "Tab Break",
+   "label": "Prenatal Diag"
+  },
+  {
+   "fieldname": "maternal_care_plan_tab",
+   "fieldtype": "Tab Break",
+   "label": "Maternal Care Plan"
+  },
+  {
+   "fieldname": "delivery_tab",
+   "fieldtype": "Tab Break",
+   "label": "Delivery"
+  },
+  {
+   "fieldname": "outcome",
+   "fieldtype": "Select",
+   "label": "Outcome",
+   "options": "NVD\nLSCS\nVentouse"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-21 05:56:18.570396",
+ "modified": "2024-05-27 11:01:08.062276",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "Gynae Obstetric History Sheet",
+ "name": "G Obstetric History Sheet",
  "owner": "Administrator",
  "permissions": [
   {

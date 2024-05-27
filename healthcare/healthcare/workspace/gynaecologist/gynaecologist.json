@@ -1,0 +1,94 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"si8S8GHaJZ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Gynaecologist</span>\",\"col\":12}},{\"id\":\"c9owlfa0qP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Patient\",\"col\":3}},{\"id\":\"1erikHsQZR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Patient List\",\"col\":3}},{\"id\":\"Wk8j5EpREQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wXIvC9zYWf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Gynae Consultation\",\"col\":3}},{\"id\":\"v0qBLO_0j4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"List Gynae Consultation\",\"col\":3}},{\"id\":\"HfroUZVjWz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"rM-MOjRr6E\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Vital\",\"col\":3}},{\"id\":\"TQlPwpYk0x\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"List Vitals\",\"col\":3}},{\"id\":\"uX-s7qQGr3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FsrN75bpnc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Obstetric History List\",\"col\":3}},{\"id\":\"3dEuWjSHrb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create Obstetric History Sheet\",\"col\":3}}]",
+ "creation": "2024-05-18 06:08:14.212172",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "heart-active",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Gynaecologist",
+ "links": [],
+ "modified": "2024-05-27 14:42:41.860290",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Gynaecologist",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 22.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Gynae Consultation",
+   "link_to": "G Consultation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "List Vitals",
+   "link_to": "G Vitals",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Vital",
+   "link_to": "G Vitals",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Obstetric History List",
+   "link_to": "G Obstetric History Sheet",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Patient List",
+   "link_to": "Patient",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "List Gynae Consultation",
+   "link_to": "G Consultation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Obstetric History Sheet",
+   "link_to": "G Obstetric History Sheet",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create Patient",
+   "link_to": "Patient",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Gynaecologist"
+}

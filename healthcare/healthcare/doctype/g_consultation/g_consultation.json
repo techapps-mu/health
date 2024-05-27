@@ -8,12 +8,21 @@
  "field_order": [
   "patient_tab",
   "patient_container",
+  "date",
   "patient",
   "patient_details",
+  "partner_column",
+  "partner_name",
+  "partner_age",
+  "partner_occupation",
+  "partner_smokes",
+  "partner_alcohol",
+  "previous_surgery",
+  "kids_previously",
   "details_tab",
   "section_break_zsaj",
-  "date",
   "pc",
+  "gynae_history_tab",
   "gynae_history_section",
   "cycle_regularity",
   "column_break_fmyx",
@@ -45,13 +54,16 @@
   "itching",
   "column_break_xbsb",
   "offensive",
+  "parity_gestations",
   "parity_section",
   "parity_p",
-  "parity",
   "column_break_swjj",
   "parity_plus",
+  "section_break_uifz",
+  "parity",
   "section_break_nkvz",
   "gestations",
+  "urinary_gi",
   "urinary_section",
   "urinary_frequency",
   "urinary_incontinence",
@@ -60,8 +72,9 @@
   "column_break_jqfe",
   "bowels",
   "urinary_constipated",
-  "psychiatric_hx",
+  "hx_tab",
   "section_break_wrcn",
+  "psychiatric_hx",
   "previous_medical__surgical_hx",
   "drug_history__allergies",
   "social_hx_section",
@@ -74,6 +87,7 @@
   "family_hx_m",
   "column_break_qfwd",
   "family_hx_f",
+  "examination_tab",
   "examination_section",
   "exam_general_abdo",
   "abdo",
@@ -96,14 +110,6 @@
   "working_diagnosis",
   "other_investigations",
   "treatment",
-  "partner_column",
-  "partner_name",
-  "partner_age",
-  "partner_occupation",
-  "partner_smokes",
-  "partner_alcohol",
-  "previous_surgery",
-  "kids_previously",
   "last_done_tab",
   "mamography",
   "bone_density",
@@ -292,7 +298,7 @@
   },
   {
    "fieldname": "parity",
-   "fieldtype": "Data"
+   "fieldtype": "Small Text"
   },
   {
    "fieldname": "urinary_section",
@@ -595,12 +601,12 @@
   {
    "fieldname": "patient_tab",
    "fieldtype": "Tab Break",
-   "label": "Patient"
+   "label": "Patient Details"
   },
   {
    "fieldname": "details_tab",
    "fieldtype": "Tab Break",
-   "label": "Details"
+   "label": "Presenting Complaint"
   },
   {
    "default": "Now",
@@ -617,12 +623,12 @@
    "fieldname": "gestations",
    "fieldtype": "Table",
    "label": "Gestations",
-   "options": "Gynae Gestation"
+   "options": "G Gestation"
   },
   {
    "fieldname": "last_done_tab",
    "fieldtype": "Tab Break",
-   "label": "Last Done"
+   "label": "Tests"
   },
   {
    "default": "type = `Mammography`",
@@ -642,14 +648,43 @@
    "fieldtype": "Table",
    "label": "Blood Tests",
    "options": "Gynae Date Entry"
+  },
+  {
+   "fieldname": "gynae_history_tab",
+   "fieldtype": "Tab Break",
+   "label": "Gynae History"
+  },
+  {
+   "fieldname": "parity_gestations",
+   "fieldtype": "Tab Break",
+   "label": "Parity & Gestations"
+  },
+  {
+   "fieldname": "urinary_gi",
+   "fieldtype": "Tab Break",
+   "label": "Urinary + GI"
+  },
+  {
+   "fieldname": "hx_tab",
+   "fieldtype": "Tab Break",
+   "label": "HX"
+  },
+  {
+   "fieldname": "examination_tab",
+   "fieldtype": "Tab Break",
+   "label": "Examination"
+  },
+  {
+   "fieldname": "section_break_uifz",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-21 04:51:59.527421",
+ "modified": "2024-05-27 14:27:58.896547",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "Gynae Consultation",
+ "name": "G Consultation",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
