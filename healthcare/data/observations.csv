@@ -1,0 +1,21 @@
+Name,Description,Category,Parameter,Units,Reference Range,Normal Range,Abnormal Range
+Blood Test Panel 1,Complete blood count panel,Hematology,Hemoglobin,g/dL,12.0 - 15.5,12.0 - 15.5,< 12.0 or > 15.5
+Blood Test Panel 1,Complete blood count panel,Hematology,Red Blood Cells,M/uL,4.2 - 5.4,4.2 - 5.4,< 4.2 or > 5.4
+Blood Test Panel 1,Complete blood count panel,Hematology,White Blood Cells,K/uL,4.5 - 11.0,4.5 - 11.0,< 4.5 or > 11.0
+Blood Test Panel 1,Complete blood count panel,Hematology,Platelets,K/uL,150 - 400,150 - 400,< 150 or > 400
+Liver Function Panel,Liver function tests,Biochemistry,Aspartate Aminotransferase (AST),U/L,10 - 40,10 - 40,< 10 or > 40
+Liver Function Panel,Liver function tests,Biochemistry,Alanine Aminotransferase (ALT),U/L,7 - 56,7 - 56,< 7 or > 56
+Liver Function Panel,Liver function tests,Biochemistry,Total Bilirubin,mg/dL,0.3 - 1.2,0.3 - 1.2,< 0.3 or > 1.2
+Renal Function Panel,Kidney function tests,Biochemistry,Creatinine,mg/dL,0.6 - 1.2,0.6 - 1.2,< 0.6 or > 1.2
+Renal Function Panel,Kidney function tests,Biochemistry,Blood Urea Nitrogen (BUN),mg/dL,7 - 20,7 - 20,< 7 or > 20
+Thyroid Function Panel,Thyroid function tests,Biochemistry,Thyroid Stimulating Hormone (TSH),uIU/mL,0.4 - 4.0,0.4 - 4.0,< 0.4 or > 4.0
+Blood Test Panel 2,Another blood test panel,Hematology,Hematocrit,%,36 - 46,36 - 46,< 36 or > 46
+Blood Test Panel 2,Another blood test panel,Hematology,Mean Corpuscular Volume (MCV),fL,80 - 96,80 - 96,< 80 or > 96
+Blood Test Panel 2,Another blood test panel,Hematology,Mean Corpuscular Hemoglobin (MCH),pg,27 - 31,27 - 31,< 27 or > 31
+Blood Test Panel 2,Another blood test panel,Hematology,Mean Corpuscular Hemoglobin Concentration (MCHC),g/dL,32 - 36,32 - 36,< 32 or > 36
+Liver Function Panel 2,Another liver function test panel,Biochemistry,Albumin,g/dL,3.5 - 5.0,3.5 - 5.0,< 3.5 or > 5.0
+Liver Function Panel 2,Another liver function test panel,Biochemistry,Total Protein,g/dL,6.0 - 8.3,6.0 - 8.3,< 6.0 or > 8.3
+Liver Function Panel 2,Another liver function test panel,Biochemistry,Alkaline Phosphatase (ALP),U/L,44 - 147,44 - 147,< 44 or > 147
+Renal Function Panel 2,Another kidney function test panel,Biochemistry,Sodium,mEq/L,135 - 145,135 - 145,< 135 or > 145
+Renal Function Panel 2,Another kidney function test panel,Biochemistry,Potassium,mEq/L,3.5 - 5.0,3.5 - 5.0,< 3.5 or > 5.0
+Renal Function Panel 2,Another kidney function test panel,Biochemistry,Chloride,mEq/L,98 - 106,98 - 106,< 98 or > 106

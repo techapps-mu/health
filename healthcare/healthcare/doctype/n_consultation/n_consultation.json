@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-28 10:24:34.878567",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "patient",
+  "section_break_xmyb",
+  "chief_complaint",
+  "past_history__allergies",
+  "clinical_examination",
+  "investigation_done",
+  "provisional_diagnosis",
+  "medications_section",
+  "drug_prescription",
+  "plan_section",
+  "small_text_vrhc",
+  "laboratory_request_section",
+  "table_xeml",
+  "radiology_request_section",
+  "table_bypp",
+  "other_tests_section",
+  "table_oqdo"
+ ],
+ "fields": [
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "label": "Patient",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "section_break_xmyb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "chief_complaint",
+   "fieldtype": "Small Text",
+   "label": "Chief Complaint"
+  },
+  {
+   "fieldname": "past_history__allergies",
+   "fieldtype": "Small Text",
+   "label": "Past History / Allergies"
+  },
+  {
+   "fieldname": "clinical_examination",
+   "fieldtype": "Small Text",
+   "label": "Clinical Examination"
+  },
+  {
+   "fieldname": "investigation_done",
+   "fieldtype": "Small Text",
+   "label": "Investigation Done"
+  },
+  {
+   "fieldname": "provisional_diagnosis",
+   "fieldtype": "Small Text",
+   "label": "Provisional Diagnosis"
+  },
+  {
+   "fieldname": "medications_section",
+   "fieldtype": "Section Break",
+   "label": "Medications"
+  },
+  {
+   "fieldname": "drug_prescription",
+   "fieldtype": "Table",
+   "label": "Drug Prescription",
+   "options": "Drug Prescription"
+  },
+  {
+   "fieldname": "plan_section",
+   "fieldtype": "Section Break",
+   "label": "Plan"
+  },
+  {
+   "fieldname": "small_text_vrhc",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "laboratory_request_section",
+   "fieldtype": "Section Break",
+   "label": "Laboratory Request"
+  },
+  {
+   "fieldname": "table_xeml",
+   "fieldtype": "Table",
+   "options": "Lab Prescription"
+  },
+  {
+   "fieldname": "radiology_request_section",
+   "fieldtype": "Section Break",
+   "label": "Radiology Request"
+  },
+  {
+   "fieldname": "table_bypp",
+   "fieldtype": "Table",
+   "options": "Lab Prescription"
+  },
+  {
+   "fieldname": "other_tests_section",
+   "fieldtype": "Section Break",
+   "label": "Other Tests"
+  },
+  {
+   "fieldname": "table_oqdo",
+   "fieldtype": "Table",
+   "options": "Lab Prescription"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-28 10:40:17.053548",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "N Consultation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

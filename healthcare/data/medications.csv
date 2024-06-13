@@ -1,0 +1,101 @@
+Medication Name,Generic Name,Dosage Form,Strength,Medication Class,Abbr,Strength UOM,Default Prescription Dosage,Default Prescription Duration
+Acetaminophen,Paracetamol,Tablet,500mg,Analgesic,APAP,mg,500mg,7 days
+Ibuprofen,Ibuprofen,Tablet,200mg,NSAID,IBU,mg,200mg,7 days
+Amoxicillin,Amoxicillin,Capsule,500mg,Antibiotic,AMOX,mg,500mg,10 days
+Metformin,Metformin,Tablet,500mg,Antidiabetic,MET,mg,500mg,30 days
+Atorvastatin,Atorvastatin,Tablet,20mg,Statin,ATOR,mg,20mg,30 days
+Omeprazole,Omeprazole,Capsule,20mg,Proton Pump Inhibitor,OMEP,mg,20mg,14 days
+Lisinopril,Lisinopril,Tablet,10mg,ACE Inhibitor,LIS,mg,10mg,30 days
+Simvastatin,Simvastatin,Tablet,20mg,Statin,SIMV,mg,20mg,30 days
+Levothyroxine,Levothyroxine,Tablet,50mcg,Thyroid Hormone,LEVO,mcg,50mcg,30 days
+Amlodipine,Amlodipine,Tablet,5mg,Calcium Channel Blocker,AML,mg,5mg,30 days
+Metoprolol,Metoprolol,Tablet,50mg,Beta Blocker,MET,mg,50mg,30 days
+Albuterol,Albuterol,Inhaler,90mcg,Bronchodilator,ALB,mcg,90mcg,as needed
+Hydrochlorothiazide,Hydrochlorothiazide,Tablet,25mg,Diuretic,HCTZ,mg,25mg,30 days
+Montelukast,Montelukast,Tablet,10mg,Leukotriene Receptor Antagonist,MON,mg,10mg,30 days
+Prednisone,Prednisone,Tablet,20mg,Corticosteroid,PRED,mg,20mg,7 days
+Azithromycin,Azithromycin,Tablet,250mg,Antibiotic,AZI,mg,250mg,5 days
+Ciprofloxacin,Ciprofloxacin,Tablet,500mg,Antibiotic,CIPRO,mg,500mg,10 days
+Losartan,Losartan,Tablet,50mg,Angiotensin II Receptor Blocker,LOS,mg,50mg,30 days
+Gabapentin,Gabapentin,Capsule,300mg,Anticonvulsant,GAB,mg,300mg,30 days
+Sertraline,Sertraline,Tablet,50mg,Antidepressant,SERT,mg,50mg,30 days
+Zolpidem,Zolpidem,Tablet,10mg,Insomnia,ZOLP,mg,10mg,as needed
+Tramadol,Tramadol,Tablet,50mg,Analgesic,TRAM,mg,50mg,as needed
+Clonazepam,Clonazepam,Tablet,1mg,Benzodiazepine,CLON,mg,1mg,as needed
+Cyclobenzaprine,Cyclobenzaprine,Tablet,10mg,Muscle Relaxant,CYCLO,mg,10mg,7 days
+Fluoxetine,Fluoxetine,Tablet,20mg,Antidepressant,FLUOX,mg,20mg,30 days
+Lorazepam,Lorazepam,Tablet,1mg,Benzodiazepine,LOR,mg,1mg,as needed
+Doxycycline,Doxycycline,Capsule,100mg,Antibiotic,DOXY,mg,100mg,10 days
+Pantoprazole,Pantoprazole,Tablet,40mg,Proton Pump Inhibitor,PANTO,mg,40mg,14 days
+Tamsulosin,Tamsulosin,Tablet,0.4mg,Alpha Blocker,TAM,mg,0.4mg,30 days
+Clindamycin,Clindamycin,Capsule,300mg,Antibiotic,CLIN,mg,300mg,10 days
+Glipizide,Glipizide,Tablet,5mg,Antidiabetic,GLIP,mg,5mg,30 days
+Cephalexin,Cephalexin,Capsule,500mg,Antibiotic,CEPH,mg,500mg,10 days
+Ranitidine,Ranitidine,Tablet,150mg,H2 Antagonist,RAN,mg,150mg,14 days
+Meloxicam,Meloxicam,Tablet,15mg,NSAID,MELO,mg,15mg,30 days
+Fenofibrate,Fenofibrate,Tablet,160mg,Lipid-Lowering Agent,FENO,mg,160mg,30 days
+Furosemide,Furosemide,Tablet,40mg,Diuretic,FUR,mg,40mg,30 days
+Levofloxacin,Levofloxacin,Tablet,500mg,Antibiotic,LEVO,mg,500mg,10 days
+Sildenafil,Sildenafil,Tablet,50mg,Phosphodiesterase Inhibitor,SILD,mg,50mg,as needed
+Finasteride,Finasteride,Tablet,5mg,5-Alpha Reductase Inhibitor,FIN,mg,5mg,30 days
+Paroxetine,Paroxetine,Tablet,20mg,Antidepressant,PAROX,mg,20mg,30 days
+Bupropion,Bupropion,Tablet,150mg,Antidepressant,BUP,mg,150mg,30 days
+Escitalopram,Escitalopram,Tablet,10mg,Antidepressant,ESC,mg,10mg,30 days
+Citalopram,Citalopram,Tablet,20mg,Antidepressant,CITA,mg,20mg,30 days
+Alendronate,Alendronate,Tablet,70mg,Bisphosphonate,ALEN,mg,70mg,7 days
+Metronidazole,Metronidazole,Tablet,500mg,Antibiotic,METRO,mg,500mg,7 days
+Lovastatin,Lovastatin,Tablet,20mg,Statin,LOVA,mg,20mg,30 days
+Warfarin,Warfarin,Tablet,5mg,Anticoagulant,WARF,mg,5mg,30 days
+Oxycodone,Oxycodone,Tablet,5mg,Opioid,OXY,mg,5mg,as needed
+Hydrocodone/Acetaminophen,Hydrocodone/Acetaminophen,Tablet,5/325mg,Opioid,HYD/APAP,mg,5/325mg,as needed
+Cetirizine,Cetirizine,Tablet,10mg,Antihistamine,CETI,mg,10mg,as needed
+Valsartan,Valsartan,Tablet,80mg,Angiotensin II Receptor Blocker,VAL,mg,80mg,30 days
+Pioglitazone,Pioglitazone,Tablet,30mg,Antidiabetic,PIO,mg,30mg,30 days
+Loratadine,Loratadine,Tablet,10mg,Antihistamine,LOR,mg,10mg,as needed
+Duloxetine,Duloxetine,Tablet,30mg,Antidepressant,DULO,mg,30mg,30 days
+Venlafaxine,Venlafaxine,Tablet,75mg,Antidepressant,VEN,mg,75mg,30 days
+Quetiapine,Quetiapine,Tablet,25mg,Antipsychotic,QUE,mg,25mg,30 days
+Atenolol,Atenolol,Tablet,50mg,Beta Blocker,ATEN,mg,50mg,30 days
+Allopurinol,Allopurinol,Tablet,300mg,Xanthine Oxidase Inhibitor,ALLO,mg,300mg,30 days
+Digoxin,Digoxin,Tablet,0.125mg,Cardiac Glycoside,DIG,mg,0.125mg,30 days
+Clopidogrel,Clopidogrel,Tablet,75mg,Antiplatelet,CLOP,mg,75mg,30 days
+Spironolactone,Spironolactone,Tablet,25mg,Aldosterone Antagonist,SPIR,mg,25mg,30 days
+Mirtazapine,Mirtazapine,Tablet,30mg,Antidepressant,MIRT,mg,30mg,30 days
+Naproxen,Naproxen,Tablet,500mg,NSAID,NAP,mg,500mg,as needed
+Glyburide,Glyburide,Tablet,5mg,Antidiabetic,GLYB,mg,5mg,30 days
+Trazodone,Trazodone,Tablet,50mg,Antidepressant,TRAZ,mg,50mg,30 days
+Lamotrigine,Lamotrigine,Tablet,100mg,Anticonvulsant,LAMO,mg,100mg,30 days
+Topiramate,Topiramate,Tablet,25mg,Anticonvulsant,TOPI,mg,25mg,30 days
+Propranolol,Propranolol,Tablet,40mg,Beta Blocker,PROP,mg,40mg,30 days
+Hydroxyzine,Hydroxyzine,Tablet,25mg,Antihistamine,HYDR,mg,25mg,as needed
+Lidocaine,Lidocaine,Topical,5%,Local Anesthetic,LIDO,%,5%,as needed
+Pravastatin,Pravastatin,Tablet,40mg,Statin,PRAV,mg,40mg,30 days
+Rosuvastatin,Rosuvastatin,Tablet,10mg,Statin,ROSU,mg,10mg,30 days
+Triamterene/HCTZ,Triamterene/HCTZ,Tablet,37.5/25mg,Diuretic,TRI/HCTZ,mg,37.5/25mg,30 days
+Diclofenac,Diclofenac,Tablet,50mg,NSAID,DICLO,mg,50mg,as needed
+Divalproex,Divalproex,Tablet,250mg,Anticonvulsant,DIVAL,mg,250mg,30 days
+Oxcarbazepine,Oxcarbazepine,Tablet,300mg,Anticonvulsant,OXCAR,mg,300mg,30 days
+Guaifenesin,Guaifenesin,Tablet,600mg,Expectorant,GUAI,mg,600mg,as needed
+Lithium,Lithium,Tablet,300mg,Mood Stabilizer,LITH,mg,300mg,30 days
+Verapamil,Verapamil,Tablet,240mg,Calcium Channel Blocker,VER,mg,240mg,30 days
+Morphine,Morphine,Tablet,30mg,Opioid,MOR,mg,30mg,as needed
+Baclofen,Baclofen,Tablet,10mg,Muscle Relaxant,BAC,mg,10mg,as needed
+Sumatriptan,Sumatriptan,Tablet,50mg,Antimigraine,SUMA,mg,50mg,as needed
+Aripiprazole,Aripiprazole,Tablet,10mg,Antipsychotic,ARIP,mg,10mg,30 days
+Methotrexate,Methotrexate,Tablet,2.5mg,Antirheumatic,METH,mg,2.5mg,7 days
+Lansoprazole,Lansoprazole,Capsule,30mg,Proton Pump Inhibitor,LAN,mg,30mg,14 days
+Nitrofurantoin,Nitrofurantoin,Capsule,100mg,Antibiotic,NITRO,mg,100mg,7 days
+Carvedilol,Carvedilol,Tablet,12.5mg,Beta Blocker,CARV,mg,12.5mg,30 days
+Isosorbide Mononitrate,Isosorbide Mononitrate,Tablet,30mg,Nitrate,ISO,mg,30mg,30 days
+Hydralazine,Hydralazine,Tablet,50mg,Vasodilator,HYDRA,mg,50mg,30 days
+Acyclovir,Acyclovir,Tablet,400mg,Antiviral,ACY,mg,400mg,7 days
+Ropinirole,Ropinirole,Tablet,1mg,Dopamine Agonist,ROP,mg,1mg,30 days
+Oseltamivir,Oseltamivir,Capsule,75mg,Antiviral,OSE,mg,75mg,5 days
+Terazosin,Terazosin,Tablet,1mg,Alpha Blocker,TER,mg,1mg,30 days
+Amiodarone,Amiodarone,Tablet,200mg,Antiarrhythmic,AMIO,mg,200mg,30 days
+Clotrimazole,Clotrimazole,Topical,1%,Antifungal,CLOT,%,1%,as needed
+Diazepam,Diazepam,Tablet,5mg,Benzodiazepine,DIAZ,mg,5mg,as needed
+Enalapril,Enalapril,Tablet,10mg,ACE Inhibitor,ENAL,mg,10mg,30 days
+Minocycline,Minocycline,Tablet,100mg,Antibiotic,MINO,mg,100mg,7 days
+Famotidine,Famotidine,Tablet,20mg,H2 Antagonist,FAM,mg,20mg,14 days
+Erythromycin,Erythromycin,Tablet,250mg,Antibiotic,ERY,mg,250mg,7 days
