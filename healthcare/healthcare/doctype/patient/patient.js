@@ -21,6 +21,8 @@ frappe.ui.form.on('Patient', {
 		setTimeout(() => {
 			hideTab('follow_up_review_tab');
 			if (frappe.user.has_role('Zeeneko') && !frappe.user.has_role('Administrator')) {
+
+				frm.set_value('sex', 'Female');
 	
 				hideTab('dashboard_tab');
 				hideTab('address_and_contact_tab');

@@ -125,8 +125,7 @@
    "fieldtype": "Link",
    "in_preview": 1,
    "label": "Gender",
-   "options": "Gender",
-   "reqd": 1
+   "options": "Gender"
   },
   {
    "bold": 1,
@@ -513,7 +512,7 @@
  "image_field": "image",
  "links": [],
  "max_attachments": 50,
- "modified": "2024-05-27 15:59:29.681997",
+ "modified": "2024-06-12 22:26:36.602653",
  "modified_by": "Administrator",
  "module": "Healthcare",
  "name": "Patient",
@@ -569,7 +568,6 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
  "restrict_to_domain": "Healthcare",
  "search_fields": "patient_name,mobile,email,phone,uid",
  "show_name_in_global_search": 1,
