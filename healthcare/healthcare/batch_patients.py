@@ -25,7 +25,8 @@ def generate_patient():
         'email': email,
         'mobile': mobile,
         'uid': uid,
-        'image': image
+        'image': image,
+        'dob': fake.date_of_birth(minimum_age=18, maximum_age=100),
     }
     return patient
 
