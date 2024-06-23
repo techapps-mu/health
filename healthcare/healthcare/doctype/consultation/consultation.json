@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-23 17:13:06.464602",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "pratitioner",
+  "patient",
+  "data",
+  "data_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "pratitioner",
+   "fieldtype": "Link",
+   "label": "pratitioner",
+   "options": "User"
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "label": "patient",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "JSON",
+   "label": "data"
+  },
+  {
+   "fieldname": "data_type",
+   "fieldtype": "Data",
+   "label": "data type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-23 17:15:09.149647",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Consultation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
