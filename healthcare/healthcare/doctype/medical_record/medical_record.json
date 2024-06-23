@@ -1,15 +1,22 @@
 {
  "actions": [],
- "autoname": "autoincrement",
- "creation": "2024-06-23 17:13:06.464602",
+ "allow_rename": 1,
+ "creation": "2024-06-23 18:02:46.241483",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "type",
   "patient",
-  "data",
-  "data_type"
+  "date",
+  "attach",
+  "notes"
  ],
  "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "type"
+  },
   {
    "fieldname": "patient",
    "fieldtype": "Link",
@@ -17,23 +24,28 @@
    "options": "Patient"
   },
   {
-   "fieldname": "data",
-   "fieldtype": "JSON",
-   "label": "data"
+   "default": "Now",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "date"
   },
   {
-   "fieldname": "data_type",
-   "fieldtype": "Data",
-   "label": "data type"
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "attach"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "notes"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-23 17:51:58.765307",
+ "modified": "2024-06-23 18:03:58.806792",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "Consultation",
- "naming_rule": "Autoincrement",
+ "name": "Medical Record",
  "owner": "Administrator",
  "permissions": [
   {
