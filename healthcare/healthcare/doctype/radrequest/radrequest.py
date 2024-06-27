@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Consultation(Document):
+class RadRequest(Document):
 	pass

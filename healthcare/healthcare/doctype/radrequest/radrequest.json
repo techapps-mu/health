@@ -1,39 +1,25 @@
 {
  "actions": [],
- "autoname": "autoincrement",
- "creation": "2024-06-23 17:13:06.464602",
+ "allow_rename": 1,
+ "creation": "2024-06-26 17:36:03.248366",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "patient",
-  "data",
-  "data_type"
+  "test_name"
  ],
  "fields": [
   {
-   "fieldname": "patient",
-   "fieldtype": "Link",
-   "label": "patient",
-   "options": "Patient"
-  },
-  {
-   "fieldname": "data",
-   "fieldtype": "JSON",
-   "label": "data"
-  },
-  {
-   "fieldname": "data_type",
+   "fieldname": "test_name",
    "fieldtype": "Data",
-   "label": "data type"
+   "label": "Test name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-23 17:51:58.765307",
+ "modified": "2024-06-26 17:36:21.271169",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "Consultation",
- "naming_rule": "Autoincrement",
+ "name": "RadRequest",
  "owner": "Administrator",
  "permissions": [
   {
