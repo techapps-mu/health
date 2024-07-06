@@ -1,42 +1,46 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:user",
- "creation": "2024-06-23 17:17:39.120162",
+ "autoname": "prompt",
+ "creation": "2024-07-02 12:37:07.897930",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "user",
-  "form",
-  "organization"
+  "user_data",
+  "created",
+  "data_type",
+  "user"
  ],
  "fields": [
   {
+   "fieldname": "created",
+   "fieldtype": "Datetime",
+   "label": "Created"
+  },
+  {
+   "fieldname": "data_type",
+   "fieldtype": "Data",
+   "label": "Data Type"
+  },
+  {
+   "fieldname": "user_data",
+   "fieldtype": "JSON",
+   "label": "User Data"
+  },
+  {
    "fieldname": "user",
    "fieldtype": "Link",
-   "label": "user",
-   "options": "User",
-   "unique": 1
-  },
-  {
-   "fieldname": "form",
-   "fieldtype": "Data",
-   "label": "form"
-  },
-  {
-   "fieldname": "organization",
-   "fieldtype": "Link",
-   "label": "Organization",
-   "options": "Organization"
+   "label": "User",
+   "options": "User"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 04:39:00.831445",
+ "modified": "2024-07-02 14:00:52.604724",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "AppUser",
- "naming_rule": "By fieldname",
+ "name": "UserData",
+ "naming_rule": "Set by user",
  "owner": "Administrator",
  "permissions": [
   {
@@ -44,6 +48,7 @@
    "delete": 1,
    "email": 1,
    "export": 1,
+   "if_owner": 1,
    "print": 1,
    "read": 1,
    "report": 1,

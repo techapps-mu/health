@@ -1,41 +1,27 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:user",
- "creation": "2024-06-23 17:17:39.120162",
+ "autoname": "field:organization_name",
+ "creation": "2024-07-03 04:37:00.963903",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "user",
-  "form",
-  "organization"
+  "organization_name"
  ],
  "fields": [
   {
-   "fieldname": "user",
-   "fieldtype": "Link",
-   "label": "user",
-   "options": "User",
-   "unique": 1
-  },
-  {
-   "fieldname": "form",
+   "fieldname": "organization_name",
    "fieldtype": "Data",
-   "label": "form"
-  },
-  {
-   "fieldname": "organization",
-   "fieldtype": "Link",
-   "label": "Organization",
-   "options": "Organization"
+   "label": "Organization Name",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 04:39:00.831445",
+ "modified": "2024-07-03 04:37:45.643526",
  "modified_by": "Administrator",
  "module": "Healthcare",
- "name": "AppUser",
+ "name": "Organization",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

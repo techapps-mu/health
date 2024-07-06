@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-02 17:45:08.908450",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "allday",
+  "start",
+  "end",
+  "title",
+  "patient",
+  "event_data",
+  "user"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "allday",
+   "fieldtype": "Check",
+   "label": "All Day"
+  },
+  {
+   "fieldname": "start",
+   "fieldtype": "Datetime",
+   "label": "Start"
+  },
+  {
+   "fieldname": "end",
+   "fieldtype": "Datetime",
+   "label": "End"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "patient",
+   "fieldtype": "Link",
+   "label": "Patient",
+   "options": "Patient"
+  },
+  {
+   "fieldname": "event_data",
+   "fieldtype": "JSON",
+   "label": "event_data"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-02 17:49:54.468816",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "FCEvent",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
