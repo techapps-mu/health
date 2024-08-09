@@ -10,7 +10,8 @@
   "created",
   "data_type",
   "form",
-  "patient"
+  "patient",
+  "organization"
  ],
  "fields": [
   {
@@ -38,11 +39,17 @@
    "fieldtype": "Link",
    "label": "Patient",
    "options": "Patient"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Link",
+   "label": "organization",
+   "options": "Organization"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-28 14:05:38.248690",
+ "modified": "2024-07-24 17:50:41.336428",
  "modified_by": "Administrator",
  "module": "Healthcare",
  "name": "PatientData",

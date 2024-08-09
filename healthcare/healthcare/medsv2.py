@@ -1,11 +1,13 @@
 import csv
 import frappe
 from frappe.utils import cstr
-
+import os
+dirname = os.path.dirname(__file__)
+filename = os.path.join(dirname, 'relative/path/to/file/you/want')
 
 
 def import_medications():
-    file_path = '/Users/tzrootm1mi/wrk/msconsult/frappe-bench/apps/healthcare/healthcare/data/meds.csv'
+    file_path = os.path.join(dirname, '../data/meds.csv')
     with open(file_path, 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         values = []
